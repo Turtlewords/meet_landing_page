@@ -1,0 +1,26 @@
+:root {
+    --cyan-300: #8FE3F9;
+    --cyan-600: #4D96A9;
+    --purple-300: #D9B8FF;
+    --purple-600: #855FB1;
+    --slate-300: #D1D1DF;
+    --slate-600: #87879D;
+    --slate-900: #28283D;
+    --white: #FAFAFA;
+}
+
+
+.red-hat-display-font {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300 900;
+    font-style: normal;
+  }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}

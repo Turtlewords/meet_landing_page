@@ -1,4 +1,5 @@
 :root {
+    /* Colors */
     --cyan-300: #8FE3F9;
     --cyan-600: #4D96A9;
     --purple-300: #D9B8FF;
@@ -7,6 +8,35 @@
     --slate-600: #87879D;
     --slate-900: #28283D;
     --white: #FAFAFA;
+
+    /* Font Presets */
+
+    --preset-1-font-size: 64px;
+    --preset-1-line-height: 1.1;
+
+    --preset-2-font-size: 40px;
+    --preset-2-line-height: 1.1;
+
+    --preset-3-font-size: 16px;
+    --preset-3-line-height: 1.1;
+    --preset-3-letter-spacing: 4px;
+
+    --preset-4-font-size: 16px;
+    --preset-4-line-height: 1.1;
+
+    --preset-5-font-size: 16x;
+    --preset-5-line-height: 1.5;
+
+    /* Spacing */
+
+    --space: 8px;
+    --space-xs: calc(var(--space) * 0.5);
+    --space-sm: var(--space);
+    --space-md: calc(var(--space) * 2);
+    --space-lg: calc(var(--space) * 3);
+    --space-xl: calc(var(--space) * 4);
+    --space-xxl: calc(var(--space) * 5);
+
 }
 
 
@@ -23,4 +53,11 @@
 
 body {
     min-height: 100vh;
+}
+
+
+/* Images */
+
+img {
+    max-width: 100%;
 }

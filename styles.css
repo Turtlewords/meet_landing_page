@@ -127,16 +127,16 @@ header {
 
 
 #vl-one, #vl-two {
-    border-left: 2px solid var(--slate-300);
+    border-left: 1px solid var(--slate-300);
     height: 100px;
     margin-top: 3rem;
 }
 
 #circle-one, #circle-two {
-    border: 2px solid var(--slate-300);
+    border: 1px solid var(--slate-300);
     border-radius: 200px;
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
     margin-top: 0;
     font-size: var(--preset-4-sz);
     font-weight: 900;
@@ -148,7 +148,7 @@ header {
 }
 
 .gallery {
-    width: 90%;
+    width: 80%;
     margin: 5rem 0 1rem;
 }
 
@@ -283,15 +283,14 @@ h2 {
 
 .chat-text, .smarter-body {
     font-size: var(--preset-4-sz);
-    line-height: var(--preset-4-ht);
+    line-height: var(--preset-5-ht);
+    
     font-weight: 600;
     color: var(--slate-600);
     margin: var(--space-xl);
 }
 
-.smarter-body {
-    line-height: var(--preset-5-ht);
-}
+
 
 .smarter-pre-head {
     text-transform: uppercase;
@@ -339,6 +338,7 @@ h2 {
     }
 
     header {
+        margin-top: 2vw;
         padding: 3vw;
     }
 

@@ -304,6 +304,7 @@ h2 {
 
 .smarter-text h2 {
     margin-top: var(--space-300);
+    margin-bottom: 0;
     max-width: 450px;
 }
 

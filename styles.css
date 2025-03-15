@@ -90,6 +90,8 @@ header {
     margin-bottom: 5vw;
 }
 
+
+
 #hero {
     
    margin: var(--space-200);
@@ -114,8 +116,8 @@ header {
 .btn {
     text-decoration: none;
     font-family: inherit;
-    font-size: var(--preset-4-sz);
-    font-weight: 700;
+    font-size: var(--preset-3-sz);
+    font-weight: 800;
     display: block;
     width: fit-content;
     padding: var(--space-200) var(--space-400);
@@ -144,17 +146,17 @@ header {
 
 #vl-one, #vl-two {
     border-left: 1px solid var(--slate-300);
-    height: 75px;
+    height: 80px;
     margin-top: 3rem;
 }
 
 #circle-one, #circle-two {
     border: 1px solid var(--slate-300);
     border-radius: 200px;
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
     margin-top: 0;
-    font-size: var(--preset-4-sz);
+    font-size: var(--preset-3-sz);
     font-weight: 900;
     color: var(--slate-600);
     display: flex;
@@ -231,7 +233,7 @@ header {
     align-items: center;
     position: relative;
     width: 100%;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
     
 }
 
@@ -326,6 +328,7 @@ h2 {
 
 .experience p {
     font-weight: 600;
+    font-size: var(--preset-4-sz);
 }
 
 @media (min-width: 768px) {
@@ -342,7 +345,7 @@ h2 {
     }
 
     h2 {
-        font-size: 44px;
+        font-size: 40px;
     }
 
     .experience {
@@ -376,7 +379,7 @@ h2 {
         width: 80%;
     }
     .gallery-wrapper {
-        width: 90%;
+        width: 96%;
     }
 
     .experience {

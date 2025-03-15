@@ -29,13 +29,25 @@
 
     /* Spacing */
 
-    --space: 8px;
+    /* --space: 8px;
     --space-xs: calc(var(--space) * 0.5);
     --space-sm: var(--space);
     --space-md: calc(var(--space) * 2);
     --space-lg: calc(var(--space) * 3);
     --space-xl: calc(var(--space) * 4);
-    --space-xxl: calc(var(--space) * 5);
+    --space-xxl: calc(var(--space) * 5); */
+
+    --space-50: 4px;
+    --space-100: 8px;
+    --space-200: 16px;
+    --space-300: 24px;
+    --space-400: 32px;
+    --space-500: 40px;
+    --space-700: 56px;
+    --space-800: 64px;
+    --space-900: 72px;
+    --space-1000: 80px;
+    --space-1400: 112px;
 
 }
 
@@ -80,14 +92,14 @@ header {
 
 #hero {
     
-   margin: var(--space-md);
+   margin: var(--space-200);
 }
 
 #chat {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: var(--space-sm);
+    padding: var(--space-100);
     text-align: center;
     width: 90%;
 }
@@ -96,7 +108,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: var(--space-lg);
+    gap: var(--space-300);
 }
 
 .btn {
@@ -106,7 +118,7 @@ header {
     font-weight: 700;
     display: block;
     width: fit-content;
-    padding: var(--space-md) var(--space-xl);
+    padding: var(--space-200) var(--space-400);
     border-radius: 50px;
     
     color: var(--white);
@@ -160,7 +172,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 1rem;
+    grid-gap: var(--space-200);
 }
 
 .smarter {
@@ -206,7 +218,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: var(--space-md);
+    gap: var(--space-200);
 }
 
 .width-limit {
@@ -237,7 +249,7 @@ img {
 }
 
 .gallery-wrapper img {
-    border-radius: var(--space);
+    border-radius: var(--space-200);
     
 }
 
@@ -271,20 +283,23 @@ h1 {
     font-weight: 900;
     margin-bottom: 0;
     max-width: 400px;
+    color: var(--slate-900);
 }
 
 h2 {
     font-size: 36px;
     line-height: var(--preset-2-ht);
     font-weight: 900; 
+    color: var(--slate-900);
 }
 
 .smarter-text h2 {
-    margin-top: var(--space-lg);
+    margin-top: var(--space-300);
 }
 
 .experience h2 {
     margin-bottom: 0;
+    color: var(--white);
 }
 
 .chat-text, .smarter-body {
@@ -293,7 +308,7 @@ h2 {
     
     font-weight: 600;
     color: var(--slate-600);
-    margin: var(--space-xl);
+    margin: var(--space-400);
 }
 
 
@@ -314,14 +329,12 @@ h2 {
 }
 
 @media (min-width: 768px) {
-    #btn-box {
-        flex-direction: row;
-        justify-content: center;
-    }
+    
 
     .gallery-wrapper {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: initial;
+        grid-gap: var(--space-300);
     }
 
     h1 {
@@ -343,7 +356,10 @@ h2 {
         display: none;
     }
 
-    
+    .btn-box {
+        flex-direction: row;
+        justify-content: center;
+    }
 
     header {
         margin-top: 3vw;
@@ -355,7 +371,12 @@ h2 {
     }
 
     .gallery {
+        display: flex;
+        justify-content: center;
         width: 80%;
+    }
+    .gallery-wrapper {
+        width: 90%;
     }
 
     .experience {

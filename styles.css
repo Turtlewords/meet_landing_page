@@ -231,7 +231,7 @@ header {
 }
 
 .width-limit {
-    max-width: 520px;
+    max-width: 525px;
 }
 
 #desk-hero {
@@ -322,7 +322,7 @@ h2 {
     
     font-weight: 600;
     color: var(--slate-600);
-    margin: var(--space-300);
+    margin: var(--space-300) 0;
 }
 
 
@@ -387,7 +387,7 @@ h2 {
     }
 
     h1 {
-        font-size: 62px;
+        font-size: 64px;
     }
 
     .gallery {

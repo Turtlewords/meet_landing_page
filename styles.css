@@ -167,7 +167,7 @@ header {
 
 .gallery {
     width: 88%;
-    margin: 4rem 0 1rem;
+    margin: 4rem 0 2rem;
 }
 
 .gallery-wrapper {
@@ -377,8 +377,9 @@ h2 {
     }
 
     header {
-        margin-top: 3vw;
+        margin-top: 2vw;
         padding: 3vw;
+        margin-bottom: 2vw;
     }
 
     #desk-hero {

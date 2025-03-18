@@ -280,7 +280,7 @@ img {
 
 #hero-img-right {
     position: absolute;
-    bottom: 0px;
+    top: 60px;
     right: -30px;
     overflow: hidden;
 }
@@ -290,8 +290,9 @@ img {
 h1 {
     display: inline-block;
     font-size: var(--preset-1-sz);
+    line-height: 1;
     font-weight: 900;
-    margin-bottom: 0;
+    margin: 40px 0 0;
     max-width: 400px;
     color: var(--slate-900);
 }

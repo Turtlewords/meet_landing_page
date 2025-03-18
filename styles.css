@@ -80,7 +80,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 7vw;
+    padding: 6vw 6vw 8vw;
 }
 
 .hero-chat {
@@ -167,7 +167,7 @@ header {
 
 .gallery {
     width: 88%;
-    margin: 5rem 0 1rem;
+    margin: 4rem 0 1rem;
 }
 
 .gallery-wrapper {
@@ -273,14 +273,16 @@ img {
 #hero-img-left {
     position: absolute;
     top: 20px;
-    left: -20px;
+    left: -30px;
+    overflow: hidden;
     
 }
 
 #hero-img-right {
     position: absolute;
     bottom: -30px;
-    right: -20px;
+    right: -30px;
+    overflow: hidden;
 }
 
 /* Typography */
@@ -400,7 +402,7 @@ h2 {
     .exp-wrap {
        flex-direction: row;
        justify-content: space-evenly;
-       padding: 5rem;
+       padding: 6rem;
     }
 
     .tight {

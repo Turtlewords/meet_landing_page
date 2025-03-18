@@ -272,7 +272,7 @@ img {
 
 #hero-img-left {
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: -30px;
     overflow: hidden;
     
@@ -280,7 +280,7 @@ img {
 
 #hero-img-right {
     position: absolute;
-    bottom: -30px;
+    bottom: 0px;
     right: -30px;
     overflow: hidden;
 }
@@ -322,7 +322,7 @@ h2 {
     
     font-weight: 600;
     color: var(--slate-600);
-    margin: var(--space-400);
+    margin: var(--space-300);
 }
 
 

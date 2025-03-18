@@ -290,7 +290,6 @@ img {
 h1 {
     display: inline-block;
     font-size: var(--preset-1-sz);
-    line-height: var(--preset-1-ht);
     font-weight: 900;
     margin-bottom: 0;
     max-width: 400px;
@@ -322,7 +321,7 @@ h2 {
     
     font-weight: 600;
     color: var(--slate-600);
-    margin: var(--space-300) 0;
+    margin: var(--space-300) 0 var(--space-400);
 }
 
 
